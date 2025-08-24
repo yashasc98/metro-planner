@@ -1,0 +1,86 @@
+id,active,city,code,line,name,latitude,longitude
+1,y,bangalore,whf,purple,Whitefield (Kadugodi),12.995625455807017,77.75780503727238
+2,y,bangalore,hfc,purple,Hopefarm Channasandra,12.987347402873011,77.75379584665572
+3,y,bangalore,ktp,purple,Kadugodi Tree Park,12.98570951942136,77.74684228685972
+4,y,bangalore,pat,purple,Pattandur Agrahara,12.98762142351826,77.7377368660094
+5,y,bangalore,sssh,purple,Sri Sathya Sai Hospital,12.981220442784364,77.72754067856239
+6,y,bangalore,nal,purple,Nallurhalli,12.976632872389711,77.72475208594251
+7,y,bangalore,kdh,purple,Kundalahalli,12.977605431603259,77.71552230035516
+8,y,bangalore,str,purple,Seetharampalya,12.98096478423409,77.70871311551414
+9,y,bangalore,hod,purple,Hoodi,12.988781530428758,77.71136337044578
+10,y,bangalore,gcp,purple,Garudacharpalya,12.99348092920732,77.7036585109682
+11,y,bangalore,sgp,purple,Singayyanapalya,12.996555003704657,77.69270733665857
+12,y,bangalore,krp,purple,Krishnarajapura,12.999921474136263,77.67760783273094
+13,y,bangalore,bgh,purple,Benniganahalli,12.996371768688295,77.66826204358631
+14,y,bangalore,bpn,purple,Baiyappanahalli,12.990668218373477,77.65258891792196
+15,y,bangalore,svr,purple,Swami Vivekananda Road,12.985909461171511,77.64500320371081
+16,y,bangalore,ind,purple,Indiranagar,12.978259997869941,77.63852386481116
+17,y,bangalore,hls,purple,Halasuru,12.976364328203823,77.62671411843877
+18,y,bangalore,tri,purple,Trinity,12.973030091597765,77.6168386568948
+19,y,bangalore,mgr,purple,Mahatma Gandhi Road,12.975515161693544,77.60669313470281
+20,y,bangalore,cbp,purple,Cubbon Park,12.980898999639349,77.59746499047235
+21,y,bangalore,vds,purple,Vidhana Soudha,12.979690921871423,77.59263538126645
+22,y,bangalore,clc,purple,Central College,12.9742784222309,77.5839459993541
+23,y,bangalore,mjt,purple,Majestic,12.97568993925329,77.57284375792803
+24,y,bangalore,ksr,purple,Krantivira Sangolli Rayanna Railway Station,12.97584021991043,77.56575555446595
+25,y,bangalore,mgrd,purple,Magadi Road,12.97565711716261,77.55541240581063
+26,y,bangalore,sbsh,purple,Sri Balagangadharanatha Swamiji Station, Hosahalli,12.974296481939676,77.54544297521029
+27,y,bangalore,vjn,purple,Vijayanagara,12.970819516717738,77.5373629491612
+28,y,bangalore,att,purple,Attiguppe,12.9621007623354,77.53371306811208
+29,y,bangalore,dpn,purple,Deepanjali Nagar,12.952214546799189,77.53710107085861
+30,y,bangalore,myr,purple,Mysuru Road,12.946725672602952,77.5300734122965
+31,y,bangalore,pnh,purple,Pantharapalya - Nayandahalli,12.941824761087634,77.52516317573603
+32,y,bangalore,rrn,purple,Rajarajeshwari Nagar,12.936691681021976,77.51955592283888
+33,y,bangalore,jnb,purple,Jnanabharathi,12.935444884289984,77.51217804221172
+34,y,bangalore,ptg,purple,Pattanagere,12.924274389618764,77.49830578002232
+35,y,bangalore,kbt,purple,Kengeri Bus Terminal,12.914639821550388,77.48770445402798
+36,y,bangalore,ken,purple,Kengeri,12.90791092003739,77.47646996537593
+37,y,bangalore,chg,purple,Challaghatta,12.897334932490827,77.4612135834365
+38,y,bangalore,mdv,green,Madavara,13.057434202711324,77.47290470568342
+39,y,bangalore,ckb,green,Chikkabidarakallu,13.052414287236319,77.4878939041839
+40,y,bangalore,mjn,green,Manjunath Nagar,13.050154163961679,77.49437533501369
+41,y,bangalore,ngs,green,Nagasandra,13.048111682172202,77.50012316040605
+42,y,bangalore,dsh,green,Dasarahalli,13.043541266471575,77.51237829090653
+43,y,bangalore,jhl,green,Jalahalli,13.039583090923161,77.51983833868425
+44,y,bangalore,pni,green,Peenya Industry,13.036447332659597,77.5254509737669
+45,y,bangalore,pny,green,Peenya,13.032984994998182,77.53346926007983
+46,y,bangalore,grt,green,Goraguntepalya,13.028486302587144,77.54086763619942
+47,y,bangalore,ysp,green,Yeshwanthpura,13.023308734185637,77.5498635212128
+48,y,bangalore,ssf,green,Sandal Soap Factory,13.01472736801078,77.55403130008801
+49,y,bangalore,mhk,green,Mahalakshmi,13.008336602828265,77.54883393741866
+50,y,bangalore,rjg,green,Rajajinagar,13.000344332697729,77.54974951087019
+51,y,bangalore,mkr,green,Mahakavi Kuvempu Road,12.998501988057436,77.55694640295748
+52,y,bangalore,srp,green,Srirampura,12.99652468434382,77.56335598549124
+53,y,bangalore,mss,green,Mantri Square Sampige Road,12.990544411418572,77.57080520364455
+54,y,bangalore,mjt,green,Majestic,12.97568993925329,77.57284375792803
+55,y,bangalore,ckp,green,Chickpete,12.967545157538758,77.57479179441435
+56,y,bangalore,krm,green,Krishna Rajendra Market,12.960160210342769,77.57447842055716
+57,y,bangalore,ncl,green,National College,12.950611938653294,77.57373654550489
+58,y,bangalore,lbg,green,Lalbagh,12.94628627506155,77.58006085987859
+59,y,bangalore,sec,green,South End Circle,12.938319540816586,77.5800747447457
+60,y,bangalore,jnr,green,Jayanagar,12.929673984321399,77.58017613495151
+61,y,bangalore,rvr,green,Rashtreeya Vidyalaya Road,12.921586195747667,77.58026048643617
+62,y,bangalore,bns,green,Banashankari,12.915539144109205,77.57362850129583
+63,y,bangalore,jpn,green,Jayaprakash Nagar,12.90755635838923,77.57306144615427
+64,y,bangalore,ych,green,Yelachenahalli,12.89605257338709,77.57016023246292
+65,y,bangalore,knc,green,Konanakunte Cross,12.888908670932254,77.56277994303342
+66,y,bangalore,dks,green,Doddakallasandra,12.884636509868956,77.55282427534344
+67,y,bangalore,vaj,green,Vajarahalli,12.877484637647578,77.54481672320117
+68,y,bangalore,thp,green,Thalaghattapura,12.871365889779069,77.53843903356386
+69,y,bangalore,sil,green,Silk Institute,12.86167112572316,77.52998203669608
+70,y,bangalore,rvr,yellow,Rashtreeya Vidyalaya Road,12.921586195747667,77.58026048643617
+71,y,bangalore,rgd,yellow,Ragigudda,12.91698754689142,77.58820410819274
+72,y,bangalore,jvh,yellow,Jayadeva Hospital,12.916632080001968,77.59992432480563
+73,y,bangalore,btm,yellow,BTM Layout,12.916487202366557,77.60805989053132
+74,y,bangalore,csb,yellow,Central Silk Board,12.916428116697563,77.62045297992405
+75,y,bangalore,bmn,yellow,Bommanahalli,12.910648389145793,77.6264051386498
+76,y,bangalore,hgs,yellow,Hongasandra,12.901616084152339,77.63194929240817
+77,y,bangalore,kdg,yellow,Kudlu Gate,12.889806533260726,77.63919150580091
+78,y,bangalore,sgs,yellow,Singasandra,12.880664155508747,77.64482391914765
+79,y,bangalore,hsr,yellow,Hosa Road,12.870691894488193,77.65235022788431
+80,y,bangalore,bag,yellow,Beratena Agrahara,12.863676243093174,77.6578975691121
+81,y,bangalore,elc,yellow,Electronic City,12.856441028676874,77.66345336638234
+82,y,bangalore,ifk,yellow,Infosys Foundation Konappana Agrahara,12.846260220754093,77.67114573527932
+83,y,bangalore,hsk,yellow,Huskur Road,12.838883124959466,77.6774328863578
+84,y,bangalore,bhb,yellow,Biocon Hebbagodi,12.828966717833723,77.68140435594141
+85,y,bangalore,deb,yellow,Delta Electronics Bommasandra,12.81937891602588,77.68838404560752
