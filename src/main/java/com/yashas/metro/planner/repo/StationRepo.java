@@ -10,8 +10,8 @@ import com.yashas.metro.planner.entity.Station;
 @Repository
 public interface StationRepo extends JpaRepository<Station, Long> {
 
-	List<Station> findByLine(String line);
+    List<Station> findByLine(String line);
 
-	List<Station> findByCode(String code);
+    List<Station> findByCode(String code);
 
 }

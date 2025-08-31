@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MetroPlannerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MetroPlannerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MetroPlannerApplication.class, args);
+    }
 
 }
