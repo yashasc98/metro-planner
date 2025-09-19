@@ -22,7 +22,7 @@ public class RouteService implements RouteServiceInterface {
     private static final Logger logger = LoggerFactory.getLogger(RouteService.class);
     private final StationRepo stationRepo;
     private final ConnectionRepo connectionRepo;
-    private final Map<String, List<Neighbor>> graph = new HashMap<>();
+    private final Map<String, Set<Neighbor>> graph = new HashMap<>();
     private final Map<String, Station> stationMap = new HashMap<>();
 
     public RouteService(StationRepo stationRepo, ConnectionRepo connectionRepo) {
@@ -45,8 +45,8 @@ public class RouteService implements RouteServiceInterface {
             String from = c.getFromStation().getCode().toLowerCase();
             String to = c.getToStation().getCode().toLowerCase();
             int weight = c.getTravelTime() != null ? c.getTravelTime() : 1;
-            graph.computeIfAbsent(from, k -> new ArrayList<>()).add(new Neighbor(to, weight));
-            graph.computeIfAbsent(to, k -> new ArrayList<>()).add(new Neighbor(from, weight));
+            graph.computeIfAbsent(from, k -> new HashSet<>()).add(new Neighbor(to, weight));
+            graph.computeIfAbsent(to, k -> new HashSet<>()).add(new Neighbor(from, weight));
         }
         logger.info("Graph initialization completed with {} stations and {} connections", stations.size(), connections.size());
     }
@@ -62,19 +62,19 @@ public class RouteService implements RouteServiceInterface {
         }
         Map<String, Integer> dist = new HashMap<>();
         Map<String, String> prev = new HashMap<>();
-        PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(Node::getDist));
+        PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(Node::dist));
         dist.put(fromCode, 0);
         pq.add(new Node(fromCode, 0));
         while (!pq.isEmpty()) {
             Node curr = pq.poll();
-            if (curr.getCode().equals(toCode)) break;
-            if (curr.getDist() > dist.getOrDefault(curr.getCode(), Integer.MAX_VALUE)) continue;
-            for (Neighbor neighbor : graph.getOrDefault(curr.getCode(), Collections.emptyList())) {
-                int newDist = curr.getDist() + neighbor.getWeight();
-                if (newDist < dist.getOrDefault(neighbor.getCode(), Integer.MAX_VALUE)) {
-                    dist.put(neighbor.getCode(), newDist);
-                    prev.put(neighbor.getCode(), curr.getCode());
-                    pq.add(new Node(neighbor.getCode(), newDist));
+            if (curr.code().equals(toCode)) break;
+            if (curr.dist() > dist.getOrDefault(curr.code(), Integer.MAX_VALUE)) continue;
+            for (Neighbor neighbor : graph.getOrDefault(curr.code(), Collections.emptySet())) {
+                int newDist = curr.dist() + neighbor.weight();
+                if (newDist < dist.getOrDefault(neighbor.code(), Integer.MAX_VALUE)) {
+                    dist.put(neighbor.code(), newDist);
+                    prev.put(neighbor.code(), curr.code());
+                    pq.add(new Node(neighbor.code(), newDist));
                 }
             }
         }

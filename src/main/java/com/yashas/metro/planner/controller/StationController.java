@@ -3,7 +3,6 @@ package com.yashas.metro.planner.controller;
 import java.util.List;
 
 import com.yashas.metro.planner.dto.RouteResult;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -64,7 +63,7 @@ public class StationController {
     public ResponseEntity<RouteResult> getShortestRoute(@Parameter(description = "Source station code", example = "WHF") @PathVariable String from, @Parameter(description = "Destination station code", example = "MGD") @PathVariable String to) {
         logger.info("Finding shortest route from {} to {}", from, to);
         RouteResult result = routeService.findShortestPath(from, to);
-        if (result.getPath().isEmpty()) {
+        if (result.path().isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(result);

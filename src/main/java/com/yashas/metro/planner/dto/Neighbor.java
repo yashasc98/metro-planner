@@ -1,13 +1,5 @@
 package com.yashas.metro.planner.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+public record Neighbor(String code, int weight) {
 
-@Getter
-@AllArgsConstructor
-@EqualsAndHashCode
-public class Neighbor {
-    private final String code;
-    private final int weight;
 }
